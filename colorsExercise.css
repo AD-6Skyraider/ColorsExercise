@@ -1,0 +1,54 @@
+/* John Berry - Or whomever grades this - I did the text in the colors of the rainbow (ROYGBIV) starting with Red. Then for the Background I used ROYGBIV backwards.  */
+
+/* 1. Text Color */
+h1 {
+    color: red;
+    background-color: rgba(143, 0, 255, 1);
+}
+
+/* 2. Hexadecimal */
+h2 {
+    color: #ffa500;
+    background-color: rgb(75, 0, 130);
+}
+
+/* 3. Hexadecimal Shorthand */
+h3 {
+    color: #ff0;
+    background-color: #00f9;
+}
+
+/* 4. Hexadecimal with transparency  */
+h4 {
+    color: #00ff00ff;
+    background-color: #00ff0099;
+}
+
+/* 5. Hexidecimal with transparency shorthand */
+h5 {
+    color: #00f9;
+    background-color: #ff0;
+}
+
+/* 6. RGB */
+h6 {
+    color: rgb(75, 0, 130);
+    background-color: #ffa500;
+}
+
+/* 7. RGBA */
+p {
+    color: rgba(143, 0, 255, 1);  
+    background-color: red; 
+}
+
+ol li:first-child {
+    color: hotpink;
+}
+
+ol li:last-child {
+    background-color: peachpuff;
+} 
+ol li:first-child, li:last-child {
+    border-width: 5px; border-color: green; border-style: solid;
+}
